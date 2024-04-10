@@ -12,8 +12,9 @@ The python project is a GUI utility designed to facilitate various tasks within 
 6. Select the CSV file which consists of the Identifier (id or external_id) of the Documents to be deleted {refer to file "Document_Del.csv"}.
 7. Select the Identifier of the documents and Buffer Time (time between each API call) and click on "Bulk Delete Documents".
 8. Status of the deletion task would be visible in the Console.
-9. Once the task is completed, the status of all the deleted documents would be stored in CSV files in batches (maximum 500). To view them, click on "View Status Files".
-10. To exit the utility, click on "Exit" button or close directly.
+9. Once the task is completed, the status of all the deleted documents would be stored in CSV files in batches where the maximum size is 500 as permited by Veeva Rest API (refer to file "Deletion_Response_Batch_1.csv")
+10. To view the status files, click on "View Status Files".
+11. To exit the utility, click on "Exit" button or close directly.
 
 ### Snippet:
 
